@@ -1,0 +1,28 @@
+server:
+  port: 80
+
+
+spring:
+  application:
+    name: nacos-sentinel-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    #基础的sentinel配置
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8179
+
+feign:
+  sentinel:
+    enabled: true
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

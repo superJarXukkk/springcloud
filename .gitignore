@@ -1,0 +1,6 @@
+# Project exclude paths
+/nacos-payment-8006/target/
+/springcloud-commons/target/
+/springcloud-eureka-server-7001/target/
+/springcloud-order/target/
+/springcloud-payment8001/target/

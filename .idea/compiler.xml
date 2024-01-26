@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-eureka-server-7001" />
+        <module name="springcloud-bus-config-3344" />
+        <module name="springcloud-commons" />
+        <module name="springcloud-feign-hystrix-payment-8005" />
+        <module name="nacos-sentinel-order-80" />
+        <module name="springcloud-order" />
+        <module name="springcloud-zookeeper-payment8004" />
+        <module name="springcloud-sleuth-order85" />
+        <module name="springcloud-payment8001" />
+        <module name="springcloud-payment8002" />
+        <module name="springcloud-bus-config-client-3355" />
+        <module name="springcloud-bus-config-client-3366" />
+        <module name="springcloud-openFeign-eureka-order80" />
+        <module name="nacos-order-80" />
+        <module name="nacos-sentinel-payment-9001" />
+        <module name="springcloud-feign-hystrix-order-80" />
+        <module name="nacos-payment-8006" />
+        <module name="springcloud-getway-9527" />
+        <module name="nacos-config-7006" />
+        <module name="nacos-sentienl-server-8888" />
+        <module name="springcloud-eureka-ribbon-order80" />
+        <module name="springcloud-zookeeper-order80" />
+        <module name="springcloud-eureka-server7002" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

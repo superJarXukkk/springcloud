@@ -1,0 +1,26 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: cloud-config-bus-client
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://localhost:3344/
+
+eureka:
+  client:
+    fetch-registy: true
+    register-with-eureka: true # 表示是否将自己注册进 EurekaServer 默认为true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+#暴露端口,开启动态刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" #接口全暴露
